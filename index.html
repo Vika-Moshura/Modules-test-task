@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="modal"></div>
+        <div class="block">
+            <p>Баланс</p>
+            <div class="balance">1000 грн</div>
+            <p>Пиво</p>
+            <div class="beer_number">100 шт.</div>
+            <p>Вино</p>
+            <div class="wine_number">50 шт.</div>
+            <p>Пепсі</p>
+            <div class="pepsi_number">80 шт.</div>
+        </div>
+        <div class="block">
+            <form name="form1">
+                <p>Кількість</p>
+                <input type="number" name="number">
+                <input type="radio" name="option" value="Пиво">Пиво
+                <input type="radio" name="option" value="Вино">Вино
+                <input type="radio" name="option" value="Пепсі">Пепсі
+                <input type="button" name="add" value="Додати">
+                <div class="basket"></div>
+                <input type="button" name="buy" value="Купити">
+            </form>
+        </div>
+        <div class="block bought"></div>
+    </div>
+
+
+    <script src="shop.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
